@@ -1,0 +1,69 @@
+body {
+  background-color: #270608;
+}
+
+header,
+footer {
+  background-color: #944136 !important;
+}
+
+textarea {
+  resize: none !important;
+  border: none !important;
+}
+
+.messagelist {
+  padding: 2px 9px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.messageform {
+  border-top: 1px solid #DDD;
+}
+
+.text {
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+  margin-bottom: 5px;
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+.primary .text {
+  background-color: #ffffff;
+  border: 1px solid #DDDDDD;
+}
+
+.secondary .text {
+  background-color: #bbb1ca;
+  border: 1px solid #c51475;
+}
+
+aside {
+  border-left: 1px solid #DDD;
+}
+
+.emoji-wrapper button {
+  position: relative;
+}
+
+.popover {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 0%;
+  bottom: 18%;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  min-width: 200px;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.emoji-wrapper:hover .popover {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+}
